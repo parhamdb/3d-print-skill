@@ -29,7 +29,11 @@ When you ask your AI assistant to design a 3D-printable part, this skill guides 
 ### Claude Code
 
 ```bash
-claude plugins install parhamdb/3d-print-skill
+# Add the repo as a marketplace
+claude plugins marketplace add parhamdb/3d-print-skill
+
+# Install the plugin
+claude plugins install 3d-print-skill
 ```
 
 ### Gemini CLI
