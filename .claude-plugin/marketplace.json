@@ -1,0 +1,19 @@
+{
+  "name": "3d-print-skill",
+  "owner": {
+    "name": "Parham Beheshti",
+    "email": "parhamdb@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "3d-print-skill",
+      "description": "AI agent skill for parametric 3D model design and printing with CadQuery, Three.js viewers, and PrusaSlicer",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Parham Beheshti",
+        "email": "parhamdb@gmail.com"
+      }
+    }
+  ]
+}
