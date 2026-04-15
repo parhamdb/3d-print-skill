@@ -1,0 +1,28 @@
+# Example printer configuration for 3d-print-skill
+# Copy this file to ~/.config/3d-print-skill/printers/<your-printer-name>.toml
+# and fill in your printer's specifications.
+
+[printer]
+name = "MyPrinter"                    # Display name
+description = "Ender 3 V2, stock"     # Short description
+
+# Moonraker host for G-code upload (optional — omit if no network printing)
+# host = "192.168.1.100"
+
+[build_volume]
+x = 220    # mm — width
+y = 220    # mm — depth
+z = 250    # mm — height
+
+[hotend]
+nozzle_diameter = 0.4    # mm
+filament_diameter = 1.75 # mm
+max_temp = 260           # C
+
+[bed]
+max_temp = 100           # C
+
+# Optional: motion limits (informational, used for print time estimates)
+# [motion]
+# max_velocity = 300     # mm/s
+# max_accel = 3000       # mm/s^2
