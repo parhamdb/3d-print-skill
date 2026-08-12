@@ -1,5 +1,7 @@
 # 3d-print-skill
 
+[![Skillselion Top 25](https://skillselion.com/badge/marketplace/parhamdb/3d-print-skill.svg?award=1)](https://skillselion.com/marketplace/parhamdb/3d-print-skill)
+
 AI agent skill for parametric 3D model design and 3D printing. Teaches AI coding assistants (Claude Code, Gemini CLI, Copilot CLI) to design mechanically sound parts using CadQuery, verify them, present interactive 3D viewers, and slice/print via PrusaSlicer and Moonraker.
 
 ## What it does
